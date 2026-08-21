@@ -45,7 +45,7 @@ function SignUpForm() {
   };
 
   return (
-    <div className="flex flex-col gap-y-7 border border-black p-5 w-100 h-213">
+    <div className="flex flex-col gap-y-7 border border-black p-5 w-100 h-max">
       {/* header */}
       <div>
         <div className="border-2 w-max p-2 rounded-lg">
@@ -71,13 +71,13 @@ function SignUpForm() {
             placeholder="example@gmail.com"
             required
           />
-          <h2>
+          <div>
             {pesanE ? (
               <h2 className="text-red-500">{pesanE}</h2>
             ) : (
               <h2 className="text-gray-500 italic">{email ? email : "-"}</h2>
             )}
-          </h2>
+          </div>
           <label htmlFor="password">Create a password</label>
           <input
             type="password"
