@@ -6,6 +6,7 @@ import PraktikTwo from "./usestate/PraktikTwo";
 import RadixPrimitives from "./StyleComponents/RadixPrimitives";
 import ExampleOne from "./learn-useReducer/ExampleOne";
 import ExampleTwo from "./learn-useReducer/ExampleTwo";
+import TugasReducer from "./learn-useReducer/TugasReducer";
 
 function AppUseState() {
   return (
@@ -15,7 +16,7 @@ function AppUseState() {
       <Praktik /> */}
       {/* <PraktikTwo /> */}
       {/* <RadixPrimitives /> */}
-      <ExampleTwo />
+      <TugasReducer />
     </div>
   );
 }
