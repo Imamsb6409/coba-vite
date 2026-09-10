@@ -8,6 +8,8 @@ import LoginForm from "./formUncontrolledVsControlled/LoginForm";
 import LoginFormWithUseReff from "./formUncontrolledVsControlled/LoginFormWithUseReff";
 import LoginFormControlled from "./formUncontrolledVsControlled/LoginFormControlled";
 import SignUpForm from "./tugas-06-form/SignUpForm";
+import RadixPrimitives from "./StyleComponents/RadixPrimitives";
+import SimpleCounter from "./useEffect/SimpleCounter";
 
 function App() {
   return (
@@ -18,8 +20,9 @@ function App() {
         <Card />
         <Kaki />
         <Detail /> 
-        <TugasUseStateAndRef />*/}
-        <SignUpForm />
+        <TugasUseStateAndRef /> */}
+        <RadixPrimitives />
+        <SimpleCounter />
       </div>
     </React.Fragment>
   );
